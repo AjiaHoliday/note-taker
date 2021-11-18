@@ -6,10 +6,10 @@ const PORT = process.env.PORT || 3001;
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
-// Setup data parsing
+// parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
+// parse incoming JSON data
 app.use(express.json());
-
 // link to assets
 app.use(express.static('public'));
 
