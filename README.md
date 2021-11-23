@@ -13,3 +13,18 @@ An application to write and save note with Express.js back end and will save and
 - Application will allow user to be able to add note's title and description
 - Application will allow user to be able to save the notes and won't lose them even they refresh the page
 - Application will allow user to be delete notes
+
+## Screenshots
+![](public\assets\images\note-taker-1.png)
+![](public\assets\images\note-taker-enter-new-note.png)
+![](public\assets\images\note-taker-notes-page.png)
+
+## Technologies Use
+<p><a href="https://nodejs.org/">Node.js</a></p>
+<p><a href="https://www.npmjs.com/">NPM</a></p>
+<p><a href="https://www.npmjs.com/package/express">Express.js</a></p>
+<p><a href="https://www.npmjs.com/package/inquirer">Inquirer.js</a></p>
+<p><a href="https://www.npmjs.com/package/uuid">uuid</a></p>
+
+## Contributor:
+Ajia Holiday ©2021
