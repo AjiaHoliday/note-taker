@@ -1,1 +1,24 @@
-[{"note":[{"id":"0","title":"Sample Note","text":"Notey notes for the note sample"},{"id":"1","title":"Sample Note for more snazz","text":"Notey notes for the snazzy note sample"},{"title":"Post Test","text":"post it","id":"2"}]},{"title":"Post Test2","text":"post it2","id":"ebdedea3-3145-45c0-a342-8fd1d3e6406c"}]
+{
+  "note": [
+    {
+      "id": "1",
+      "title": "Sample Note for more snazz",
+      "text": "Notey notes for the snazzy note sample"
+    },
+    {
+      "title": "hi",
+      "text": "done",
+      "id": "433d0737-6ee5-4b33-98c5-fc2eaa3d7a46"
+    },
+    {
+      "title": "Catch the heck up",
+      "text": "just do it",
+      "id": "5e5fae88-4380-4ff4-8a27-a899b7c37489"
+    },
+    {
+      "title": "Be nice",
+      "text": "just do it",
+      "id": "a7b20ec1-33a4-482c-ae3a-f6dee51e4848"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ const displayNote = util.promisify(fs.writeFile);
 
 class Save {
     display(note) {
-        return displayNote('db/db.json', JSON.stringify(note));
+        return displayNote('db/db.json', JSON.stringify({note}, null, 2));
     }
     read() {
         return readNote('db/db.json', 'utf8');
@@ -17,12 +17,9 @@ class Save {
         let parsedNotes;
         try {
             parsedNotes = [].concat(JSON.parse(notes));
-            console.log('notes parsed successfully')
         } catch (err) {
             parsedNotes = [];
-            console.log('note parse err?');
         }
-        console.log(parsedNotes);
         return parsedNotes;
     }
     async addNote(note) {
@@ -35,19 +32,15 @@ class Save {
 
         // Retrieve Notes, add the new note, update notes
         const notes = await this.getNotes();
-        console.log(...notes);
         const updatedNotes = [...notes, newNote];
         this.display(updatedNotes);
-        console.log(updatedNotes);
         return newNote;
     }
 
     async deleteNote(id) {
         const notes = await this.getNotes();
-        
         const filteredNotes = notes.filter(note => note.id !== id);
-        console.log(note => note.id);
-        return this.write(filteredNotes);
+        return this.display(filteredNotes);
     }
 }
 
