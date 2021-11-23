@@ -1,24 +1,32 @@
-{
-  "note": [
-    {
-      "id": "1",
-      "title": "Sample Note for more snazz",
-      "text": "Notey notes for the snazzy note sample"
-    },
-    {
-      "title": "hi",
-      "text": "done",
-      "id": "433d0737-6ee5-4b33-98c5-fc2eaa3d7a46"
-    },
-    {
-      "title": "Catch the heck up",
-      "text": "just do it",
-      "id": "5e5fae88-4380-4ff4-8a27-a899b7c37489"
-    },
-    {
-      "title": "Be nice",
-      "text": "just do it",
-      "id": "a7b20ec1-33a4-482c-ae3a-f6dee51e4848"
-    }
-  ]
-}
+[
+  {
+    "id": "1",
+    "title": "Sample Note for more snazz",
+    "text": "Notey notes for the snazzy note sample"
+  },
+  {
+    "title": "hi",
+    "text": "done",
+    "id": "433d0737-6ee5-4b33-98c5-fc2eaa3d7a46"
+  },
+  {
+    "title": "Catch the heck up",
+    "text": "just do it",
+    "id": "5e5fae88-4380-4ff4-8a27-a899b7c37489"
+  },
+  {
+    "title": "Be nice",
+    "text": "just do it",
+    "id": "a7b20ec1-33a4-482c-ae3a-f6dee51e4848"
+  },
+  {
+    "title": "Say hi",
+    "text": "just do it",
+    "id": "1f3fc77c-f202-476b-b6d4-8538e54907b0"
+  },
+  {
+    "title": "Say bye",
+    "text": "just do it",
+    "id": "161595e5-4b7c-4d69-bc2d-21fb5c49ada0"
+  }
+]

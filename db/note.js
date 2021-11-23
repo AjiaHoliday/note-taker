@@ -7,7 +7,7 @@ const displayNote = util.promisify(fs.writeFile);
 
 class Save {
     display(note) {
-        return displayNote('db/db.json', JSON.stringify({note}, null, 2));
+        return displayNote('db/db.json', JSON.stringify(note, null, 2));
     }
     read() {
         return readNote('db/db.json', 'utf8');
